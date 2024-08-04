@@ -1,7 +1,13 @@
+import GameList from "./components/game-list/GameList"
+import Header from "./components/header/Header"
+import Loader from "./components/loader/Loader"
+
 function App() {
     return (
         <>
-            <h1>Jackpiro Games</h1>
+            {false && <Loader />}
+            <Header />
+            {/* <GameList /> */}
         </>
     )
 }
